@@ -27,6 +27,7 @@ class Program
             PrintMainMenu();
             Console.Write("Выбор: ");
             var key = Console.ReadLine();
+            if (key is null) return;
 
             Console.WriteLine();
             switch (key)
