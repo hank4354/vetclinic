@@ -1,0 +1,6 @@
+.DS_Store
+bin/
+obj/
+.vs/
+*.user
+clinic_data.json
